@@ -4,22 +4,39 @@ A repository for Go programming language examples and projects.
 ## overview
 This repository contains various examples and projects written in Go (Golang). It serves as a resource for learning and reference for Go developers.
 ## Contents
-1. Basic Go syntax and constructs
-   - Variables, constants, and data types
-   - Control structures (if, switch, loops)
-   - Functions and methods
-   - Structs and interfaces
-2. Advanced Go concepts
-   - Goroutines and channels
-   - Error handling
-   - Packages and modules
-   - Testing and benchmarking
-3. Practical examples and projects
-   - Web servers and RESTful APIs
-   - Command-line tools
-   - File handling and I/O operations
-   - Database interactions (SQL and NoSQL)
-   - Concurrency patterns
+1. Beginner
+   - Setup and Basics
+   - Data Types and Variables
+   - Control Structures
+   - Collections (Arrays, Slices, Maps)
+   - Functions and Methods
+   - Pointers
+2. Intermediate
+   - Structs and Interfaces
+     - Defining Structs
+     - Adding Methods to Structs
+     - Struct Embedding
+   - Interfaces
+     - Declaring Interfaces
+     - Implicit Implementation (NO 'implements' keyword in Go)
+     - Interface Composition
+     - Empty Interface 'interface{}' and Type Assertions
+   - Error Handling
+     - error type
+     - Custom errors
+     - errors.New vs fmt.Errorf
+     - Error wrapping and unwrapping
+   - Packages and Modules
+     - Creating and Using Packages
+     - Import Paths
+     - Go Modules (go.mod init, go.mod tidy)
+   - standard Library
+     - fmt, os, io, bufio
+     - net/http
+     - encoding/json, encoding/xml
+     - time
+     - logging
+3. Advanced
 ## Features and Examples
 - Go standard library usage examples 
 - Common Go design patterns
