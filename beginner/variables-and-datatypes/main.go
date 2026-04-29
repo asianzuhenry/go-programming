@@ -14,6 +14,7 @@ func main() {
 	var gpa float64 = 10.5
 
 	// type inference
+	// Go can infer the type based on the assigned value
 	country := "GoLand"
 	height := 10.5
 
